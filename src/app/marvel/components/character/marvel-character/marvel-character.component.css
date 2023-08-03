@@ -6,11 +6,10 @@
 }
 
 .cardContainer{
-    padding: 10px;
+    padding: 5px;
     display: flex;
     justify-content: space-between;
-    margin: 15px;
-
+   
 }
 .containerCard{
     background-color: white;
@@ -28,7 +27,7 @@
     height: 120px;
     border-radius: 50%;}
 .containerLeft{
-    padding: 15px;
+    width: 50%;
     color: gray;
     padding-top: 33%;
     display: flex;
@@ -46,19 +45,37 @@
     margin: 0;
     padding: 0;
     font-size: small;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+    
 }
 .containerRight{
-    padding-left: 5px;
+   width: 50%;
+    height: 200px;
     color: gray;
-    padding-top: 5px;
     display: flex;
     flex-direction: column;
   justify-content: start;
 }
 .infoRight{
-    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    height:30%;
+
+}
+.containerBbtn{
+    height: 70%;
+    position: relative;
+
 }
 .buton{
+    position: absolute;
+    bottom: 0px;
     margin-top:15%;
     background-color: red;
     color: white;
@@ -66,4 +83,11 @@
 }
 .containeardrInfo{
     border: 1px solid orange;
+}
+.infoDescription{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+    overflow: hidden;
 }

@@ -21,23 +21,25 @@
         <div class="containerInfo">
           <p><strong>Related Comics</strong></p>
           <p class="info">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit222222.
+            Comics: # {{character.comics.available}}
           </p>
         </div>
       </div>
 
       <!--Container Right -->
       <div class="containerRight">
-        <small class="card-text">{{ character.description }}</small>
+       
         <div class="containerBbtn">
           <strong>{{ character.name }}</strong>
-          <p class="info">{{ character.description }}</p>
+          <small class="infoDescription">{{ character.description }}</small>
           <button type="submit" class="buton">View More</button>
         </div>
+
         <div class="infoRight">
-          <p class="info">lorem impsump</p>
-          <p class="info">lorem impsump</p>
+          <p class="info">Series: #{{character.series.available}}</p>
+          <p class="info">Stories: #{{character.stories.available}}</p>
         </div>
+
       </div>
     </div>
   </div>
