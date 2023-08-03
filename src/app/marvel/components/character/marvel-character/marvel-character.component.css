@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     background-color: rgba(220, 220, 220, 0.767);
     justify-content: center;
+    position: relative;
 }
 
 .cardContainer{
@@ -91,3 +92,4 @@
     line-clamp: 5;
     overflow: hidden;
 }
+

@@ -22,6 +22,7 @@
           <p><strong>Related Comics</strong></p>
           <p class="info">
             Comics: # {{character.comics.available}}
+            
           </p>
         </div>
       </div>
@@ -32,8 +33,11 @@
         <div class="containerBbtn">
           <strong>{{ character.name }}</strong>
           <small class="infoDescription">{{ character.description }}</small>
-          <button type="submit" class="buton">View More</button>
+ 
+          <button type="button" class="buton" (click)="modal.openModal()">View More</button>
         </div>
+        
+       
 
         <div class="infoRight">
           <p class="info">Series: #{{character.series.available}}</p>
@@ -43,4 +47,11 @@
       </div>
     </div>
   </div>
+  <!-- Modal -->
+        <!-- Add the modal component after the loop -->
+    
+        <app-modal #modal [character]="selectedCharacter"></app-modal>
 </div>
+
+          
+       

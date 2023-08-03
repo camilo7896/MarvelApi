@@ -5,6 +5,7 @@ import { SearchComponent } from './components/search/search.component';
 import { MarvelCharacterComponent } from './components/character/marvel-character/marvel-character.component';
 import { FormsModule } from '@angular/forms';
 import { AsideComponent } from './components/aside/aside.component';
+import { ModalComponent } from './components/modal/modal.component';
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { AsideComponent } from './components/aside/aside.component';
     HomeComponent,
     SearchComponent,
     MarvelCharacterComponent,
-    AsideComponent
+    AsideComponent,
+    ModalComponent
   ],
   imports: [
     FormsModule,
@@ -21,7 +23,8 @@ import { AsideComponent } from './components/aside/aside.component';
   exports: [
     HomeComponent,
     SearchComponent,
-    AsideComponent
+    AsideComponent,
+    ModalComponent
   ],
   providers: [
     MarvelCharacterComponent
