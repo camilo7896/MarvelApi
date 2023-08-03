@@ -1,5 +1,12 @@
 # MarvelApi
-![image](https://github.com/camilo7896/MarvelApi/assets/63164154/33295730-09f4-4f22-96eb-bbb97ee2714f)
+Version desktop:
+<br/>
+![image](https://github.com/camilo7896/MarvelApi/assets/63164154/81317666-ae92-4fd8-ac09-982f69c47cd6)
+
+Version Mobile:
+<br/>
+![image](https://github.com/camilo7896/MarvelApi/assets/63164154/08febbbb-4425-4939-b509-ff959ef3215c)
+
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.6.
