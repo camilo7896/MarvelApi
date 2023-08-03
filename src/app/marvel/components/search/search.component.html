@@ -1,0 +1,19 @@
+<div class="container">
+ 
+  <div class="containerLogo">
+    <img src="../../../../assets/images/logo.png" alt="Logo">
+  </div>
+  
+<div class="fom">
+  <form #fm="ngForm" (ngSubmit)="emitValue(fm)">
+    <input
+      class="form control border border-primary rounded-pill p-2"
+      type="text"
+      name="search"
+      [(ngModel)]="inputValue"
+      placeholder="Search character..."
+    />
+  </form>
+</div>
+
+</div>

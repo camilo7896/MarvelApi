@@ -1,0 +1,20 @@
+.container{
+    background: rgb(37, 37, 37);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container input{
+    width: 350px;
+    height: 30px;
+}
+.containerLogo{
+    width: 30%;
+}
+.containerLogo img{
+    width: 100px;
+}
+.fom{
+    width: 70%;
+}

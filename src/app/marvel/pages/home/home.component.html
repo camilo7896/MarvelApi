@@ -1,0 +1,44 @@
+<div class="container">
+<marvel-search-component
+  (startSearch)="searchCharactersByTerm($event)"
+></marvel-search-component>
+<!-- Contenedor del body   -->
+<div class="containerBody">
+    <div class="conatinerBox">
+    <div class="containerHeader">
+      <!-- Contenedor de icono y subtitulo Character -->
+      <div class="containerSubtitleIcon">
+        <div>
+          <img src="../../../../assets/images/characters.png" alt="logo"/>
+        </div>
+        <div>
+          <h2>Characters</h2>
+        </div>
+      </div>
+      <!-- Contenedor del selector -->
+      <div class="ContainerSelector">
+        <select (change)="getCharactersWithPageLength($event)">
+          <option value="" disabled selected>Sort by</option>
+          <option value="10">10</option>
+          <option value="20">20</option>
+          <option value="50">50</option>
+        </select>
+      </div>  
+    </div>
+    
+    <!-- Contenedor de targetas de personajes  -->
+    <div class="containerCarCharacter">
+      <app-marvel-character-component
+      [characters]="characters$ | async"
+      ></app-marvel-character-component>
+    </div>
+  </div>
+
+    <div class="containerAside">
+  <marvel-aside></marvel-aside>     
+    </div>
+
+  </div>
+
+
+</div>
