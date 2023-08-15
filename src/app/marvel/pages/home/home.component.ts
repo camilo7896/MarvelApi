@@ -8,6 +8,7 @@ import { Observable, of } from 'rxjs';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+[x: string]: any;
   limit = 10;
   search = '';
   characters$: Observable<any[]> = of([]);

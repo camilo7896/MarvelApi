@@ -1,0 +1,12 @@
+<div *ngIf="showModal" class="modal">
+    <div class="modal-content">
+      <div class="btnClose">
+        <span class="" (click)="closeModal()">&times;</span>
+      </div>
+      <p>Modal</p>
+      <h2>{{ character.name }}</h2>
+      <p>{{ character.description }}</p>
+      <!-- Add any additional information you want to display in the modal -->
+    </div>
+  </div>
+  
